@@ -15,4 +15,6 @@ Plug 'zchee/deoplete-go', { 'do': 'make'}
 call plug#end()
 
 let g:deoplete#enable_at_startup = 1
+let g:go_fmt_command = 'goimports'
+
 set completeopt-=preview
